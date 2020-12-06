@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+:root {
+  --primary-color: #f3ecd2;
+  --secondary-color: #10294a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel Decorative", cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+}
+
+main #input {
+  font-family: inherit;
+  width: 75vw;
+  height: 10vh;
+  border: 1px solid var(--secondary-color);
+  padding: 1rem;
+  margin-top: 1rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+main #transalte-btn {
+  display: block;
+  font-family: inherit;
+  padding: 1rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+}
+
+main #output {
+  width: 75vw;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  min-height: 10vh;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.2rem 1rem;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+}
